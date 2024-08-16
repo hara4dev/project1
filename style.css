@@ -96,7 +96,7 @@ header{
 .home{
     min-height: 100vh;
     background: url(./img/img1.jpg);
-    background-position: center center;
+    /*background-position: center center;*/
     background-repeat: no-repeat;
   /*  background-attachment: fixed;*/
     position: relative;
