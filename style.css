@@ -96,9 +96,9 @@ header{
 .home{
     min-height: 100vh;
     background: url(./img/img1.jpg);
-   /* background-position: center center;*/
+    background-position: center;
     background-repeat: no-repeat;
-    /*background-attachment: fixed;*/
+    background-attachment: fixed;
     position: relative;
     display: flex;
     justify-content: center;
@@ -180,7 +180,8 @@ header{
 
 .about{
     min-height: 100vh;
-    background: linear-gradient(to bottom , var(--color-a), var(--color-d));        
+    background: linear-gradient(to bottom , var(--color-a), var(--color-d));  
+    overflow-x: hidden;      
 }
 
 .about h1{
@@ -470,11 +471,14 @@ footer .icons{
     padding: 0;
 }
 .location{
+    height: 200px;
+    padding-bottom: 50px;
     grid-column: 1/4;
     text-align: center;
 }
 
 .location iframe{
+    height: 100%;
     margin-top: 20px; 
     border: 0;
 }
