@@ -229,24 +229,24 @@ header{
 
 .gallery p:nth-child(odd) , .gallery .photo:nth-child(odd){
     transform: translateX(-50%);
-    display: none;
+    opacity: 0;
     transition: all 700ms ease;
 }
 
 
 .gallery p:nth-child(even) , .gallery .photo:nth-child(even){
     transform: translateX(50%);
-    display: none;
+    opacity: 0;
     transition: all 1000ms ease;
 }
 
 .gallery .visible:nth-child(odd){
     transform: translateX(0%);
-    display: auto;
+    opacity: 1;
 }
 .gallery .visible:nth-child(even){
     transform: translateX(0%);
-    display: auto;
+    opacity: 1;
 }
 
 .gallery .photo{
