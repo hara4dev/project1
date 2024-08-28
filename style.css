@@ -180,8 +180,7 @@ header{
 
 .about{
     min-height: 100vh;
-    background: linear-gradient(to bottom , var(--color-a), var(--color-d));  
-    overflow-x: hidden;      
+    background: linear-gradient(to bottom , var(--color-a), var(--color-d));       
 }
 
 .about h1{
